@@ -1,0 +1,35 @@
+JFDML JFormDesigner: "5.2.1.0.138" Java: "1.8.0_25" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {space :::p, par l {seq l {comp scrollPane1:::p:246:p, space ::8:x}, seq l {comp addBtn:::p:89:p, space ::51:x, comp remBtn:::p:89:p, space :p:25:p}, seq t {comp newWord:::::x, space :::p}}}}"
+			"$verticalGroup": "par l {seq l {space :::p, comp scrollPane1:::p:314:p, space :::p, comp newWord:::p::p, space :p:30:p, par b {comp addBtn::b:p:47:p, comp remBtn::b:p:47:p}, space ::13:x}}"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "listOfWords"
+					"editable": false
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "addBtn"
+				"text": "Adiciona"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "addBtnMouseClicked", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "remBtn"
+				"text": "Remove"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "newWord"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 25, 0 )
+			"size": new java.awt.Dimension( 260, 440 )
+		} )
+	}
+}

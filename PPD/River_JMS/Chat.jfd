@@ -1,0 +1,51 @@
+JFDML JFormDesigner: "5.2.1.0.138" Java: "1.8.0_25" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {space :::p, par l {comp scrollPane1:::p:413:p, comp msgTxt::l:p:413:p}, space :::p, par l {comp label1:::p::p, seq l {par t {comp remetenteLbl::t:p:117:p, comp sendBtn:::p:123:p, comp destinatarioLbl::t:p:117:p}, space :::p, comp textPane1:::p::p}, comp label3:::p::p}, space ::1:x}}"
+			"$verticalGroup": "par l {seq t {par l {seq {space :::p, comp scrollPane1:::p:309:p}, seq l {space :p:21:p, comp label1:::p::p, space :::p, comp remetenteLbl:::p::p, space s:::p, comp label3:::p::p, space :::p, comp destinatarioLbl:::p::p}}, space :::x, par l {comp textPane1:::p::p, par b {comp msgTxt::b:p:69:p, comp sendBtn::b:p:61:p}}, space :p:10:p}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "sendBtn"
+				"text": "Send"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "sendBtnMouseClicked", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JTextPane" ) {
+				name: "textPane1"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTextPane" ) {
+					name: "textTxt"
+					"editable": false
+					"enabled": false
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "msgTxt"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "De"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "remetenteLbl"
+				"text": "text"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Para"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "destinatarioLbl"
+				"text": "text"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 555, 400 )
+		} )
+	}
+}

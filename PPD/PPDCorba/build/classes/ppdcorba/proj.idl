@@ -1,0 +1,17 @@
+module Sensores{
+    interface Temperatura{
+         long getTempValue();
+         boolean setTempValue(in long temp);
+    }; 
+
+    interface Ph{
+         long getPhValue();
+         boolean setPhValue(in long ph);
+    }; 
+
+    interface Cor{
+         long getCorValue();
+         boolean setCorValue(in long cor);
+    }; 
+
+};
