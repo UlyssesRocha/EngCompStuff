@@ -1,0 +1,9 @@
+V G "trenchCost" 0 5 "float" `35 
+D G "__PCH__" 0 6 ""5.008""
+D G "__DEVICE__" 0 6 ""
+D G "__DATE__" 0 6 ""28-Apr-14""
+D G "__TIME__" 0 6 ""17:08:13""
+D G "MAXI" 0 2 "8"
+D G "INFINITY" 0 3 "99999"
+D G "MIN" 0 4 "(a,b) (((a)<(b))?(a):(b))"
+D G "MAX" 0 5 "(a,b) (((a)>(b))?(a):(b))"

@@ -1,0 +1,20 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=E:\Faculdade\Eng.o
+Folder=Intermediary
+[File001]
+Location=E:\Faculdade\Eng.HEX
+Folder=Output
+[File002]
+Location=E:\Faculdade\Eng.LST
+Folder=Output
+[File003]
+Location=E:\Faculdade\Eng.ERR
+Folder=Output
+[File004]
+Location=E:\Faculdade\Eng.COF
+Folder=Output
+[TOOL_LOC_STAMPS]
+tool_loc{0C155615-B197-4A4B-AEB6-343BB3F41A35}=C:\Program Files (x86)\PICC\Ccsc.exe

@@ -1,0 +1,7 @@
+*** Error 18 "Eng.c" Line 1(9,16): File can not be opened
+    Not in "C:\Program Files (x86)\PICC\Devices\Eng.h"
+    Not in "C:\Program Files (x86)\PICC\Drivers\Eng.h"
+    Not in project "E:\Faculdade\Eng.Computação\6º periodo\Sist.Embarcados\Pic\TctToPic\Eng.h"
+*** Error 128 "Eng.c" Line 5(9,15): A #DEVICE required before this line
+      2 Errors,  0 Warnings.
+Build Failed.
